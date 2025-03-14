@@ -1,0 +1,7 @@
+#Crea un programa que calcule la suma de los primeros 
+#100 números naturales utilizando un bucle for.
+
+result=0
+for n in range (101):
+    result += n 
+print(result)    

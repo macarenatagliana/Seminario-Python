@@ -3,3 +3,17 @@
 # una con los número pares y otras 
 # con los que son impares. Imprima
 #las listas al terminar de procesarlas
+
+lista_par = []
+lista_impar = []
+lista_numeros = [0,1,2,3,4,5,6,7,8]
+for n in lista_numeros:
+    if n % 2 == 0:
+        lista_par.append(n)
+    else:
+        lista_impar.append(n)
+        
+print(lista_par)
+print(lista_impar)
+
+

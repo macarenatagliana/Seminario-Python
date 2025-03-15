@@ -4,10 +4,12 @@
 #número negativo. 
 # Nota: utilice la sentencia break cuando haga falta.
 
-x = []
-numeros = input("Ingrese lista de numeros separados por coma ")
 
-x = list(map(int, numeros))
-print(type(x))
+numeros = input("Ingrese lista de numeros separados por espacios ")
 
-#
+lista_numeros = list(map(int, numeros.split()))
+
+for n in lista_numeros:
+    if n<0:
+        break
+    print(n)

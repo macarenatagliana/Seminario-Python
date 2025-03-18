@@ -37,7 +37,13 @@ for _ in range(3):
     for intento in range(2):
         user_answer = input("Respuesta: ")
         # Se verifica si la respuesta es correcta
-        if (user_answer := int(user_answer)) not in range(1, 5):
+        # primero chequea q sea numeros
+        if not user_answer.isdigit():
+            print("Respuesta no válida")
+            exit(1)
+        user_answer = int(user_answer)
+        # chequea que este en el rango de respuestas permitidas
+        if user_answer not in range(1,5):
             print("Respuesta no válida")
             exit(1)
         else:

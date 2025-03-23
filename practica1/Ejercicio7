@@ -1,0 +1,25 @@
+#Escribe un programa que tome una lista de números enteros como entrada
+#del usuario. Luego, convierte cada número en la lista a string y únelos en
+#una sola cadena, separados por guiones ('-'). Sin embargo, excluye cualquier
+#número que sea múltiplo de 3 de la cadena final.
+
+
+lista_numeros = [0,1,2,3,4,5,6,7,8]
+#print(map(str, lista_numeros))
+lista=[]
+#print(type(lista_numeros[0]))
+#lista_numeros = list(map(str, lista_numeros))
+for s in lista_numeros:
+    if s % 3 !=0:
+        lista.append(s)
+lista = list(map(str, lista))
+#for s in lista:
+
+print(lista)
+
+print("-----------------------------------------------------------")
+print("asi se emprime la lista")
+for elemento in lista_numeros:
+    print(elemento)
+print("viste que no hay comas ") 
+print("-----------------------------------------------------------")

@@ -1,6 +1,0 @@
-#Desarrolla un programa que solicite al usuario que ingrese su edad y luego calcule y muestre cuántos años le faltan para alcanzar los 100 años.
-
-numero_ingresado = int(input("Ingrese su edad: "))
-calculo = 100 - numero_ingresado
-print(calculo)
-

@@ -15,5 +15,5 @@ for n in lista_numeros:
         
 print(lista_par)
 print(lista_impar)
-
+print(type(lista_impar))
 

@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./practica2/src"
+    ]
+}
